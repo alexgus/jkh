@@ -10,6 +10,7 @@
 	<properties>
 		<jackson.version>2.7.0</jackson.version>
 		<jetty.version>8.1.14.v20131031</jetty.version>
+		<cxf.version>3.0.0-milestone1</cxf.version>
 	</properties>
 
 	<dependencies>
@@ -47,6 +48,21 @@
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-simple</artifactId>
 			<version>1.7.5</version>
+		</dependency>
+		<dependency> <!-- CXF dependencies -->
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-frontend-jaxrs</artifactId>
+			<version>${cxf.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-transports-http</artifactId>
+			<version>${cxf.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-transports-http-jetty</artifactId>
+			<version>${cxf.version}</version>
 		</dependency>
 		<dependency> <!-- Needed by proxy class -->
 			<groupId>org.apache.httpcomponents</groupId>
