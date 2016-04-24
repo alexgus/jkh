@@ -1,0 +1,2 @@
+# jkh
+Java kontacts handling
