@@ -14,7 +14,8 @@ public class Launch {
 	 * @param args No args
 	 */
 	public static void main(String[] args) {
-		System.out.println("It works !");
+		MainController m = new MainController();
+		m.start();
 	}
 
 }
