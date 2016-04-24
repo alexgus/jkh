@@ -17,3 +17,6 @@ hs_err_pid*
 /bin/
 /.project~
 /.classpath~
+
+#Components are not part of this project
+/src/main/webapp/components
